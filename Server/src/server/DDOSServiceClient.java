@@ -37,7 +37,7 @@ DDOSServiceClient obj = new DDOSServiceClient() ;
 Thread.sleep(5000);
 //A server IP that need to be replaced with this IP
 DDOSService service = (DDOSService) Naming.lookup
-("rmi://192.168.55.44/DDOSService");
+("rmi://localhost/DDOSService");
 DataInputStream din = new
 DataInputStream (System.in);
 //Calling remote Method
